@@ -7,6 +7,7 @@ A special type of widget in flutter that allows data sharing across the widget t
 
 
 ## App tree
+```
 CART_INHERITED_DEMO/
 ├── android/
 ├── ios/
@@ -25,11 +26,14 @@ CART_INHERITED_DEMO/
 │   ├── screenshort
 ├── pubspec.yaml
 ├── README.md
+```
 
 ## App Flows
+```
 <blockquote>
-runApp -> **AppStateWidget** -> App -> HomePage -> Cart
+runApp -> ***AppStateWidget*** -> App -> HomePage -> Cart
 </blockquote>
+```
 
 ### Rebuild 
 <blockquote>final data = AppStateScrope.of(context) in build method</blockquote>
